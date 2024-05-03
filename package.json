@@ -1,0 +1,40 @@
+{
+  "name": "loki-extension",
+  "displayName": "Loki Extension",
+  "description": "Extensions used on @mercadolibre Loki/Outbound team",
+  "version": "0.0.1",
+  "publisher": "Outbound",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melquisedecfelipe/loki-extension"
+  },
+  "bugs": {
+    "type": "git",
+    "url": "https://github.com/melquisedecfelipe/loki-extension"
+  },
+  "homepage": "https://github.com/melquisedecfelipe/loki-extension",
+  "galleryBanner": {
+    "color": "#121212",
+    "theme": "dark"
+  },
+  "icon": "logo/theme-icon.png",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "formulahendry.auto-rename-tag",
+    "streetsidesoftware.code-spell-checker",
+    "naumovs.color-highlight",
+    "mrmlnc.vscode-duplicate",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "waderyan.gitblame",
+    "GitHub.copilot",
+    "unifiedjs.vscode-mdx",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
